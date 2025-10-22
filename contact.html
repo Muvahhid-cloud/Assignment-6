@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buzz Café - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>☕ Buzz Café</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Your email" required>
+      <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+      <button type="submit">Send</button>
+      <button type="reset">Clear</button>
+    </form>
+    <p id="successMessage"></p>
+  </section>
+
+  <footer>
+    Team: Coffee Brew | Members: Zainiddin Tursunaliev, Esanjon Usmanov
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
